@@ -1,0 +1,27 @@
+.navbarCont {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border-bottom: 2px white solid;
+    z-index: 10;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    word-spacing: 0.3rem;
+}
+.links-cont {
+    display: flex;
+    align-items: center;
+}
+.links {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
